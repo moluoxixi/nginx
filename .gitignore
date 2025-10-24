@@ -1,12 +1,19 @@
-# user
-outPatientDoctor
-outPatientDoctor.zip
-src/typings
-stats.html
-docs
+# 其他用户配置
+vitepress
 
+# 项目
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+/cypress/videos/
+/cypress/screenshots/
+stats.html
 pnpm-lock.yaml
-# Logs
+
+# 日志
 logs
 *.log
 npm-debug.log*
@@ -15,17 +22,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
-
-/cypress/videos/
-/cypress/screenshots/
-
-# Editor directories and files
+# 编辑器
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -37,5 +34,5 @@ coverage
 
 *.tsbuildinfo
 
-# Sentry Config File
+# Sentry配置
 .env.sentry-build-plugin
