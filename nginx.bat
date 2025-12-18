@@ -21,7 +21,7 @@ echo.
 echo   1. 启动 Nginx
 echo   2. 停止 Nginx
 echo   3. 重启 Nginx
-echo   4. 重新加载配置
+echo   4. 重载 Nginx
 echo.
 set /p choice=请选择操作 (1-4): 
 
