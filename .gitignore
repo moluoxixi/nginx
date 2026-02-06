@@ -1,4 +1,11 @@
 # 其他用户配置
+typings
+
+# rules(可选)
+.cursor
+
+# 依赖（可选）
+*-lock.yaml
 
 # 测试产物
 .playwright-mcp
@@ -19,7 +26,6 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 stats.html
-*-lock.yaml
 
 # 日志
 logs
